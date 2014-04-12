@@ -14,9 +14,8 @@ head
     = current_page.data.title || "Jake Klingler"
   meta content="width=device-width,initial-scale=1" name="viewport"
   =stylesheet_link_tag 'main'
+  =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Libre+Baskerville|Julius+Sans+One'
   =javascript_include_tag 'vendor/modernizr'
 body
   = yield
   =javascript_include_tag 'main'
-  javascript:
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0]; g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js'; s.parentNode.insertBefore(g,s)}(document,'script')); 
