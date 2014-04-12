@@ -1,0 +1,34 @@
+# Automatic image dimensions on image_tag helper
+# activate :automatic_image_sizes
+
+configure :development do
+  activate :livereload
+end
+
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+set :slim, pretty: true
+
+# Build-specific configuration
+configure :build do
+  activate :minify_html
+  activate :minify_css
+  activate :minify_javascript
+  activate :gzip
+  activate :imageoptim do |image_optim|
+    image_optim.pngout_options = false
+  end
+
+  # Enable cache buster
+  # activate :asset_hash
+
+  activate :relative_assets
+  # Or use a different image path
+  # set :http_prefix, "/Content/images/"
+end
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method = :git
+end
