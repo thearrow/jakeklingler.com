@@ -1,6 +1,9 @@
+[View on GitHub Pages](http://thearrow.github.io/personal-site)
+
 ###About
 Personal static resume site built with:
 - [Middleman](http://middlemanapp.com/)
+- [Bower](http://bower.io/)
 
 ###Development
 (*OSX with Homebrew*)

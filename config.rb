@@ -5,6 +5,7 @@ configure :development do
   activate :livereload
 end
 
+activate :bower
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
