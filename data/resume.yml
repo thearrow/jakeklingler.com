@@ -1,0 +1,35 @@
+positions:
+  -
+    title: Software Developer
+    location: Epic Systems, Verona, WI
+    time: (March, 2014 – Present)
+    description:
+    tags:
+      - C#
+  -
+    title: Software Developer Intern
+    location: Epic Systems, Verona, WI
+    time: (May, 2013 – August, 2013)
+    description: Designed and developed MyChart for Windows Phone 8 with two other interns.
+    tags:
+      - C#
+      - Windows Phone
+  -
+    title: Student Programmer
+    location: The Ohio State University, Libraries Web Team, Columbus, OH
+    time: (September, 2009 – February, 2013)
+    description: Assisted with design and development of library web projects.
+    tags:
+      - Ruby on Rails
+      - JS/CSS/HTML
+
+education:
+  -
+    title: B.S. Computer Science &amp; Engineering
+    location: The Ohio State University, Columbus, OH
+    time: (December, 2013)
+    description:
+    tags:
+      - Java
+      - C
+      - Python

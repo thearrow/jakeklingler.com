@@ -10,11 +10,10 @@ doctype html
 head
   meta charset="utf-8"
   meta content="IE=edge" http-equiv="X-UA-Compatible"
-  title
-    = current_page.data.title || "Jake Klingler"
+  title Jake Klingler
   meta content="width=device-width,initial-scale=1" name="viewport"
   =stylesheet_link_tag 'main'
   =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Libre+Baskerville|Julius+Sans+One'
 body
-  = yield
+  =yield
   =javascript_include_tag 'main'

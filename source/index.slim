@@ -1,11 +1,7 @@
----
-title: Jake Klingler
----
-
 #main
 	#header
-		h2 Jake Klingler
+		h1 =data.main.title
+		h4 =data.main.subtitle
 
 	#body
-		p 
-			| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis Aristidem non mortuum diligit? Deinde prima illa, quae in congressu solemus: Quid tu, inquit, huc? Itaque contra est, ac dicitis; Duo Reges: constructio interrete. Hoc dixerit potius Ennius: Nimium boni est, cui nihil est mali. Sed haec quidem liberius ab eo dicuntur et saepius. Equidem etiam Epicurum, in physicis quidem, Democriteum puto.
+		= render :slim, 'sections/resume'
