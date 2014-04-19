@@ -1,12 +1,20 @@
 .position
-  margin-top: 20px
+  +body_text
+  margin-top: 30px
+  @media #{$small}
+    margin-top: 20px
   margin-bottom: 0
   text-indent: 0
-  span.title
+  .title
     color: $almost_black
-    margin-right: 5px
-  span.time
+    margin-right: 10px
+    display: inline
+  .time
     color: $med_gray
+    font-size: 0.9em
+    display: inline
+    @media #{$small}
+      display: block
 
 .tags
   list-style-type: none
@@ -14,7 +22,7 @@
   padding: 0
   li
     display: inline-block
-    +header
+    +header_text
     color: $almost_black
     background-color: $light_gray
     font-size: .8em

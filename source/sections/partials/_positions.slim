@@ -1,0 +1,11 @@
+- if positions
+  - for position in positions do
+    .position
+      .title =position.title
+      .time =position.time
+      .location =position.location
+      .description =position.description
+      - if position.tags
+        ul.tags
+          - for tag in position.tags do
+            li =tag

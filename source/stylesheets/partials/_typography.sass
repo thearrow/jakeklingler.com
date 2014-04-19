@@ -1,9 +1,21 @@
 h1, h2, h3, h4, h5, h6
-  +header
+  +header_text
   margin-bottom: .5rem
 
 p
-  +body
+  +body_text
+
+#title
+  @media #{$small}
+    font-size: 2rem
+#subtitle
+  @media #{$small}
+    font-size: 0.8rem
 
 .section
-  margin-top: 50px
+  margin-top: 60px
+  @media #{$small}
+    margin-top: 40px
+  font-size: 1.5em
+  @media #{$small}
+    font-size: 1.3em
