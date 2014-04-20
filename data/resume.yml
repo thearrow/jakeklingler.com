@@ -6,6 +6,8 @@ positions:
     description:
     tags:
       - C#
+      - JS
+      - M
   -
     title: Software Developer Intern
     location: Epic Systems, Verona, WI
@@ -21,7 +23,9 @@ positions:
     description: Assisted with design and development of library web projects.
     tags:
       - Ruby on Rails
-      - JS/CSS/HTML
+      - JS
+      - CSS
+      - HTML
 
 education:
   -

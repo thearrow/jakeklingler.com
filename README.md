@@ -7,6 +7,7 @@ Personal static resume site built with:
     - [SASS](http://sass-lang.com/)
     - [CoffeeScript](http://coffeescript.org/)
     - [YAML](http://www.yaml.org/)
+- [Brick Webfonts](http://brick.im/)
 - [Bower](http://bower.io/)
 
 Built with a focus on simplicity and maintainability, using languages chosen to wage war
