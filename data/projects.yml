@@ -1,0 +1,59 @@
+-
+  title: Tasting Table Restaurants
+  location: The Ohio State University
+  time: Fall 2013
+  description: A cross-platform (iOS and Android) mobile app for viewing restaurant reviews,
+    and Rails-based admin interface with JSON API.
+  tags:
+    - Ruby on Rails
+    - JS
+-
+  title: Quaker
+  location: Personal Project
+  time: Fall 2013
+  description: A simple application that communicates with the USGS API
+    and displays a geochart visualization of earthquakes around the world.
+  tags:
+    - Ruby on Rails
+    - JS
+-
+  title: MyChart Windows Phone
+  location: Epic Systems
+  time: Summer 2013
+  description: Allows patients to access their health information, view test results,
+    send messages to their doctor, refill medications, schedule appointments, etc.
+    from their Windows Phone.
+  tags:
+    - C#/.NET
+    - Windows Phone
+-
+  title: Laser-Tripwire Security System
+  location: The Ohio State University
+  time: Spring 2013
+  description: Built sensors using Raspberry Pi's and laser pointers that sent a
+    push notification to an Android app when tripped.
+  tags:
+    - Ruby on Rails
+    - JS
+    - Python
+-
+  title: Financial Neural Network
+  location: The Ohio State University
+  time: Spring 2013
+  description: Designed and trained a recurrent neural network to predict
+    the short-term movements of financial markets.
+  tags:
+    - Python
+    - scipy
+    - pandas
+-
+  title: Libraries Web Projects
+  location: The Ohio State University
+  time: 2009-2013
+  description: Assisted with development of several applications for the
+    OSU Libraries including a libraries map and an internal scheduling tool.
+  tags:
+    - Ruby on Rails
+    - JS
+    - CSS
+    - HTML

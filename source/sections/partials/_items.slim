@@ -1,0 +1,12 @@
+- if items
+  - for item in items do
+    div[class="#{type}"]
+      .title =item.title
+      .time =item.time
+      .location
+        em =item.location
+      .description =item.description
+      - if item.tags
+        ul.tags
+          - for tag in item.tags do
+            li =tag

@@ -1,6 +1,6 @@
 #resume
   h4.section Work Experience
-  = partial "sections/partials/positions", :locals => { :positions => data.resume.positions }
+  = partial "sections/partials/items", :locals => { :items => data.resume.positions, :type => "position"}
 
   h4.section Education
-  = partial "sections/partials/positions", :locals => { :positions => data.resume.education }
+  = partial "sections/partials/items", :locals => { :items => data.resume.education, :type => "position" }

@@ -3,8 +3,43 @@
   background-color: $light_gray
   padding: 1em
 
+#title
+  margin-bottom: .1em
+#subtitle
+  margin-bottom: .1em
+
 #body
   max-width: 960px
   margin: 0 auto
   @media #{$small}
     padding: 0 10px
+
+.section
+  margin-top: 60px
+  margin-bottom: 0
+  @media #{$small}
+    margin-top: 40px
+
+.item
+  margin-top: 30px
+  @media #{$small}
+    margin-top: 20px
+  margin-bottom: 0
+  .title
+    margin-right: 12px
+    display: inline
+  .time
+    display: inline
+    @media #{$small}
+      display: block
+
+.tags
+  list-style-type: none
+  margin: 0
+  padding: 0
+  line-height: 1.25em
+  li
+    display: inline-block
+    background-color: $light_gray
+    padding: 0 5px
+    margin-right: 4px

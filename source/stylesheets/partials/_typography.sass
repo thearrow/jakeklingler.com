@@ -1,21 +1,34 @@
 h1, h2, h3, h4, h5, h6
   +header_text
-  margin-bottom: .5rem
 
 p
   +body_text
 
 #title
   @media #{$small}
-    font-size: 2rem
+    font-size: 2em
 #subtitle
   @media #{$small}
-    font-size: 0.8rem
+    font-size: 0.8em
 
 .section
-  margin-top: 60px
-  @media #{$small}
-    margin-top: 40px
   font-size: 1.5em
   @media #{$small}
     font-size: 1.3em
+
+.item
+  +body_text
+  text-indent: 0
+  .title
+    font-size: 1.1em
+  .time
+    color: $med_gray
+    font-size: 0.8em
+  .location
+    font-size: 0.9em
+
+.tags
+  li
+    +header_text
+    color: $almost_black
+    font-size: .8em
