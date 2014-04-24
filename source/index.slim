@@ -1,8 +1,19 @@
 #main
-	#header
-		h1#title =data.main.title
-		h4#subtitle =data.main.subtitle
+  #header
+    h1#title =data.main.title
+    h4#subtitle =data.main.subtitle
 
-	#body
-		= render :slim, 'sections/resume'
-        = render :slim, 'sections/projects'
+  #body
+    #resume
+      h4.section Work
+      = partial "partials/items", :locals => { :items => data.resume.positions, :type => "position"}
+
+      h4.section Education
+      = partial "partials/items", :locals => { :items => data.resume.education, :type => "position" }
+
+    #projects
+      h4.section Projects
+      = partial "partials/items", :locals => { :items => data.projects, :type => "project" }
+
+    #me
+      h4.section Links

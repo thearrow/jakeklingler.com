@@ -1,4 +1,15 @@
 -
+  title: This Site
+  url: https://github.com/thearrow/personal-site
+  location: Personal Project
+  time: Spring 2014
+  description: A simple static resume site built with Middleman, Slim, Sass, and Coffeescript.
+    Designed to be clean and maintainable.
+  tags:
+    - Slim
+    - Sass
+    - Coffeescript
+-
   title: Tasting Table Restaurants
   url: https://github.com/thearrow/ttr
   location: The Ohio State University
@@ -7,7 +18,17 @@
     and Rails-based admin interface with JSON API.
   tags:
     - Ruby on Rails
-    - JS
+    - Coffeescript
+-
+  title: Clean Eats
+  url: https://github.com/thearrow/cleaneats
+  location: Personal Project
+  time: Fall 2013
+  description: Web app to improve dining out with dietary restrictions.
+    Users can rate restaurants on various dietary attributes (gluten-free, vegan, paleo, etc.).
+  tags:
+    - Ruby on Rails
+    - Coffeescript
 -
   title: Quaker
   url: https://github.com/thearrow/quaker
@@ -17,7 +38,6 @@
     and displays a geochart visualization of earthquakes around the world.
   tags:
     - Ruby on Rails
-    - JS
 -
   title: MyChart Windows Phone
   url: https://www.epic.com/software-phr.php
@@ -38,7 +58,7 @@
     push notification to an Android app when tripped.
   tags:
     - Ruby on Rails
-    - JS
+    - Javascript
     - Python
 -
   title: Financial Neural Network
@@ -59,6 +79,6 @@
     OSU Libraries including a libraries map and an internal scheduling tool.
   tags:
     - Ruby on Rails
-    - JS
+    - Javascript
     - CSS
     - HTML
