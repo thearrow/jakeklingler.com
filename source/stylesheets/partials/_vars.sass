@@ -2,7 +2,9 @@
 //Media Queries
 
 $small: "only screen and (max-width: 768px)"
+$large: "only screen and (min-width: 768px)"
 
+$siteWidth: 960px
 
 //=============================================
 //Typography
@@ -10,9 +12,13 @@ $small: "only screen and (max-width: 768px)"
 $heading_font: 'Raleway', sans-serif
 =header_text
   font-family: $heading_font
-  font-weight: 200
+  font-weight: 300
   @include css-hyphens(none)
   text-transform: uppercase
+
+=header_style
+  color: white
+  text-shadow: $normalShadow
 
 $body_font: 'Libre Baskerville', serif
 =body_text
@@ -31,3 +37,5 @@ $light_gray: #f2f2f2
 $med_gray: #808080
 $dark_gray: #444444
 $almost_black: #222222
+
+$normalShadow: 1px 1px 3px rgba(0,0,0,0.5)

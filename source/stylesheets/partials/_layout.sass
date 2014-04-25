@@ -1,7 +1,14 @@
 #header
   text-align: center
-  background-color: $light_gray
-  padding: 1em
+  box-shadow: $normalShadow
+  @media #{$small}
+    background: url('../images/bkg_small.jpg')
+    background-size: cover
+    padding: 1em
+  @media #{$large}
+    background: url('../images/bkg.jpg')
+    background-size: cover
+    padding: 50px 0
 
 #title
   margin-bottom: .1em
@@ -9,7 +16,7 @@
   margin-bottom: .1em
 
 #body
-  max-width: 960px
+  max-width: $siteWidth
   margin: 0 auto
   @media #{$small}
     padding: 0 10px
