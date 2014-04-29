@@ -5,9 +5,9 @@
         .title: a href=item.url target="_blank" =item.title
       - else
         .title =item.title
-      .time =item.time
-      .location
-        em =item.location
+      .location =item.location
+      .time 
+        |(#{item.time})
       .description =item.description
       - if item.tags
         ul.tags

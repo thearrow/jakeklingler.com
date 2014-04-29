@@ -1,10 +1,15 @@
 //=============================================
+//Layout 
+
+$siteWidth: 960px
+
+
+//=============================================
 //Media Queries
 
 $small: "only screen and (max-width: 768px)"
 $large: "only screen and (min-width: 768px)"
 
-$siteWidth: 960px
 
 //=============================================
 //Typography
@@ -38,4 +43,14 @@ $med_gray: #808080
 $dark_gray: #444444
 $almost_black: #222222
 
+
+//=============================================
+//Effects
 $normalShadow: 1px 1px 3px rgba(0,0,0,0.5)
+
+@mixin transition($transition-property, $transition-time, $method)
+  -webkit-transition: $transition-property $transition-time $method
+  -moz-transition: $transition-property $transition-time $method
+  -ms-transition: $transition-property $transition-time $method
+  -o-transition: $transition-property $transition-time $method
+  transition: $transition-property $transition-time $method
