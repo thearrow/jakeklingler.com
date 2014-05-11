@@ -4,16 +4,20 @@
   @media #{$small}
     background: url('../images/bkg_small.jpg')
     background-size: cover
-    padding: 1em
+    padding: 10px 0
   @media #{$large}
     background: url('../images/bkg.jpg')
     background-size: cover
     padding: 50px 0
 
-#title
-  margin-bottom: .1em
-#subtitle
-  margin-bottom: .1em
+#header-box
+  background-color: rgba(0,0,0,.15)
+  margin: auto
+  max-width: $siteWidth - 350
+  @media #{$small}
+    margin: 0 20px
+  h4 
+    padding-bottom: 5px
 
 #body
   max-width: $siteWidth

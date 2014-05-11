@@ -4,16 +4,17 @@ h1, h2, h3, h4, h5, h6
 p
   +body_text
 
-#title
-  +header_style
-  font-size: 4em
-  @media #{$small}
-    font-size: 2em
-#subtitle
-  +header_style
-  font-size: 1.5em
-  @media #{$small}
-    font-size: 0.8em
+#header
+  h1
+    +header_style
+    font-size: 4em
+    @media #{$small}
+      font-size: 2em
+  h4
+    +header_style
+    font-size: 1.5em
+    @media #{$small}
+      font-size: 0.8em
 
 .section
   font-size: 1.5em
