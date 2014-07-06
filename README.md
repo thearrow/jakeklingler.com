@@ -19,7 +19,7 @@ All actual content is in the `/data` folder, all layout is in `/source`.
 ```
 git clone git@github.com:thearrow/personal-site.git
 cd personal-site
-gem install bundler
+bower install
 bundle install
 brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush
 middleman server
