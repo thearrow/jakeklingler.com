@@ -3,10 +3,9 @@
   url: https://github.com/thearrow/personal-site
   location: Personal Project
   time: Spring 2014
-  description: A simple static resume site built with Middleman, Slim, Sass, and Coffeescript.
-    Designed to be clean and maintainable.
+  description: Built this static resume site to be clean and maintainable.
   tags:
-    - Slim
+    - Middleman
     - Sass
     - Coffeescript
 -
@@ -14,8 +13,8 @@
   url: https://github.com/thearrow/ttr
   location: The Ohio State University
   time: Fall 2013
-  description: A cross-platform (iOS and Android) mobile app for viewing restaurant reviews,
-    and Rails-based admin interface with JSON API.
+  description: Built a hybrid mobile app for viewing restaurant reviews,
+    and a backend with admin interface and JSON API.
   tags:
     - Ruby on Rails
     - Coffeescript
@@ -24,8 +23,8 @@
   url: https://github.com/thearrow/cleaneats
   location: Personal Project
   time: Fall 2013
-  description: Web app to improve dining out with dietary restrictions.
-    Users can rate restaurants on various dietary attributes (gluten-free, vegan, paleo, etc.).
+  description: Built a web app to improve dining out with dietary restrictions.
+    Crowdsourced restaurant ratings on dietary attributes (vegan, paleo, etc.).
   tags:
     - Ruby on Rails
     - Coffeescript
@@ -34,8 +33,8 @@
   url: https://github.com/thearrow/quaker
   location: Personal Project
   time: Fall 2013
-  description: A simple application that communicates with the USGS API
-    and displays a geochart visualization of earthquakes around the world.
+  description: Built a web app that pulls worldwide earthquakes from the USGS API
+    and displays a geochart visualization.
   tags:
     - Ruby on Rails
 -
@@ -43,9 +42,8 @@
   url: https://www.epic.com/software-phr.php
   location: Epic Systems
   time: Summer 2013
-  description: Allows patients to access their health information, view test results,
-    send messages to their doctor, refill medications, schedule appointments, etc.
-    from their Windows Phone.
+  description: Built a Windows Phone 8 App that allows patients to access their health information, view test results,
+    send messages to their doctor, etc.
   tags:
     - C#/.NET
     - Windows Phone
@@ -54,7 +52,7 @@
   url: https://github.com/thearrow/securitysystem-android
   location: The Ohio State University
   time: Spring 2013
-  description: Built sensors using Raspberry Pi's and laser pointers that sent a
+  description: Built sensors using Raspberry Pis and laser pointers that sent a
     push notification to an Android app when tripped.
   tags:
     - Ruby on Rails
