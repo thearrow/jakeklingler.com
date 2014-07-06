@@ -67,16 +67,23 @@
   @media #{$small}
     width: 100%
     display: block
-    
+ 
+#links > h4
+  margin-bottom: 20px
+
 .icon
   display: inline-block
-  margin: 30px 12px
   width: 100px
   height: 100px
   background-color: $light_gray
   fill: $med_gray
   &:hover
     fill: $dark_gray
+  @media #{$small}
+    margin: 4px 8px
+  @media #{$large}
+    margin: 10px 10px
+    margin-bottom: 50px
 
 
 
