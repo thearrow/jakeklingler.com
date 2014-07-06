@@ -3,21 +3,15 @@ $ ->
   $('.project').css('opacity',0)
   $('.position').css('opacity',0)
 
-  animatePositions('.position')
+  animate('.position', 250, 'inline-block')
 
   $('#projects').one('inview', (e, i, x, y) ->
-    animateProjects(e, i, x, y, '.project')
+    animate('.project', 0, 'inline-block')
   )
 
   $('#links').one('inview', (e, i, x, y) ->
-    animateLinks(e, i, x, y, '#links > a')
+    animate('#links > a', 0, 'inline-block')
   )
 
-animatePositions = (element) ->
-  $(element).delay(250).velocity("transition.slideDownIn", {duration: 400, stagger: 50})
-
-animateProjects = (e, i, x, y, element) ->
-  $(element).velocity("transition.slideDownIn", {duration: 400, stagger: 50, display:'inline-block'})
-
-animateLinks = (e, i, x, y, element) ->
-  $(element).velocity("transition.slideDownIn", {duration: 400, stagger: 50, display:'inline-block'})
+animate = (element, delayms, displaymethod) ->
+  $(element).delay(delayms).velocity("transition.slideDownIn", {duration: 400, stagger: 50, display: displaymethod})
