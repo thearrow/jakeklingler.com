@@ -10,6 +10,7 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :slim, pretty: true
+sprockets.append_path '/vendor'
 
 # Build-specific configuration
 configure :build do

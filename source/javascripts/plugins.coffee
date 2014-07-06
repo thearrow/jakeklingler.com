@@ -15,5 +15,3 @@ while length--
 
   # Only stub undefined methods.
   console[method] = noop unless console[method]
-
-# Place any jQuery/helper plugins in here.
