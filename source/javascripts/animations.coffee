@@ -1,4 +1,7 @@
 $ ->
+  # disable animations on mobile
+  return if window.matchMedia("only screen and (max-width: 768px)").matches
+  
   $('#links > a').css('opacity',0)
   $('.project').css('opacity',0)
   $('.position').css('opacity',0)
