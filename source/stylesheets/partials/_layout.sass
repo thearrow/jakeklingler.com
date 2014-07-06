@@ -43,10 +43,12 @@
     margin-right: 4px
     
 .item
-  margin-top: 30px
+  margin-top: 35px
   @media #{$small}
     margin-top: 20px
   margin-bottom: 0
+  .title
+    margin-bottom: 3px
   .location
     margin-right: 10px
     display: inline-block
@@ -67,7 +69,10 @@
   @media #{$small}
     width: 100%
     display: block
- 
+  .title a
+    &:hover
+      border-bottom: 1px solid $light_gray
+
 #links > h4
   margin-bottom: 20px
 
