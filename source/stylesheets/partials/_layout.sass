@@ -1,5 +1,4 @@
 #header
-  text-align: center
   box-shadow: $normalShadow
   @media #{$small}
     background: url('../images/bkg_small.jpg')
@@ -13,11 +12,24 @@
 #header-box
   background-color: rgba(0,0,0,.15)
   margin: auto
-  max-width: $siteWidth - 350
+  padding: 20px 20px
+  max-width: $siteWidth - 200
   @media #{$small}
-    margin: 0 20px
+    margin: 0 5px
+    padding: 5px 0
+  h1 
+    margin-top: -8px
+    @media #{$small}
+    margin-top: -4px
   h4 
-    padding-bottom: 5px
+    margin-bottom: 0
+  img 
+    float: left
+    margin-right: 40px
+    border: 1px solid $dark_gray
+    @media #{$small}
+      height: 50px
+      margin-right: 10px
 
 #body
   max-width: $siteWidth
@@ -71,7 +83,7 @@
     display: block
   .title a
     &:hover
-      border-bottom: 1px solid $light_gray
+      border-bottom: 1px solid $med_gray
 
 #links > h4
   margin-bottom: 20px
