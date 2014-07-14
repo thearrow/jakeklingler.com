@@ -17,4 +17,4 @@ $ ->
   )
 
 animate = (element, delayms, displaymethod) ->
-  $(element).delay(delayms).velocity("transition.slideDownIn", {duration: 400, stagger: 50, display: displaymethod})
+  $(element).delay(delayms).velocity("transition.slideLeftIn", {duration: 400, stagger: 75, display: displaymethod})

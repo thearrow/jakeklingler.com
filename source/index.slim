@@ -7,16 +7,16 @@
 
   #body
     #resume
-      h4.section Work
+      = partial "partials/title", :locals => { :title => "Work" }
       = partial "partials/items", :locals => { :items => data.resume.positions, :type => "position"}
 
-      h4.section Education
+      = partial "partials/title", :locals => { :title => "Education" }
       = partial "partials/items", :locals => { :items => data.resume.education, :type => "position" }
 
     #projects
-      h4.section Projects
+      = partial "partials/title", :locals => { :title => "Projects" }
       = partial "partials/items", :locals => { :items => data.projects, :type => "project" }
 
     #links
-      h4.section Links
+      = partial "partials/title", :locals => { :title => "Links" }
       = partial "partials/links"
