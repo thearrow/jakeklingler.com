@@ -1,7 +1,28 @@
-email: mailto:thearrow3456@gmail.com
-github: https://github.com/thearrow
-stackoverflow: http://careers.stackoverflow.com/jakeklingler
-goodreads: http://www.goodreads.com/user/show/8126915-jake-klingler
-linkedin: http://www.linkedin.com/pub/jake-klingler/78/999/10b
-flickr: https://www.flickr.com/photos/9829286@N07/
-lastfm: http://www.last.fm/user/thearrow3456
+-
+  title: Email
+  url: mailto:thearrow3456@gmail.com
+  icon: mail
+-
+  title: GitHub
+  url: https://github.com/thearrow
+  icon: gh
+-
+  title: StackOverflow
+  url: http://careers.stackoverflow.com/jakeklingler
+  icon: so
+-
+  title: Goodreads
+  url: http://www.goodreads.com/user/show/8126915-jake-klingler
+  icon: gr
+-
+  title: LinkedIn
+  url: http://www.linkedin.com/pub/jake-klingler/78/999/10b
+  icon: li
+-
+  title: Flickr
+  url: https://www.flickr.com/photos/9829286@N07/
+  icon: fl
+-
+  title: LastFM
+  url: http://www.last.fm/user/thearrow3456
+  icon: lastfm

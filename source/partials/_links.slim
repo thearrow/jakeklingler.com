@@ -15,28 +15,9 @@ svg display="none" height="64" version="1.1" viewBox=("0 0 439 64") width="439" 
     g#icon-fl
       path.path1 d=("M12.614 32c0-2.925 2.376-5.301 5.301-5.301s5.301 2.376 5.301 5.301-2.376 5.301-5.301 5.301-5.301-2.376-5.301-5.301zM26.238 32c0-2.925 2.376-5.301 5.301-5.301s5.301 2.376 5.301 5.301-2.376 5.301-5.301 5.301-5.301-2.376-5.301-5.301z")
 
-
-
-a href=data.links.email target="_blank"
-  svg.icon viewBox=("0 0 49 64") 
-    use xlink:href="#icon-mail"   
-a href=data.links.github target="_blank"
-  svg.icon viewBox=("0 0 49 64") 
-    use xlink:href="#icon-gh" 
-a href=data.links.stackoverflow target="_blank"
-  svg.icon viewBox=("0 0 49 64") 
-    use xlink:href="#icon-so" 
-a href=data.links.goodreads target="_blank"
-  svg.icon viewBox=("0 0 49 64") 
-    use xlink:href="#icon-gr" 
-a href=data.links.linkedin target="_blank"
-  svg.icon viewBox=("0 0 49 64") 
-    use xlink:href="#icon-li" 
-a href=data.links.flickr target="_blank"
-  svg.icon viewBox=("0 0 49 64") 
-    use xlink:href="#icon-fl" 
-a href=data.links.lastfm target="_blank"
-  svg.icon viewBox=("0 0 49 64") 
-    use xlink:href="#icon-lastfm" 
-
-
+- if links
+  - for link in links do
+    a href=link.url target="_blank" title=link.title
+      svg.icon viewBox=("0 0 49 64") 
+        use xlink:href="#icon-#{link.icon}"
+        
