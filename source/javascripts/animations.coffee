@@ -6,15 +6,15 @@ $ ->
   $('.project').css('opacity',0)
   $('.position').css('opacity',0)
 
-  animate('.position', 250, 'block')
+  animate('.position', "slideLeftIn", 250, 'block')
 
   $('#projects').one('inview', (e, i, x, y) ->
-    animate('.project', 0, 'inline-block')
+    animate('.project', "slideLeftIn", 0, 'inline-block')
   )
 
   $('#links').one('inview', (e, i, x, y) ->
-    animate('#links > a', 0, 'inline-block')
+    animate('#links > a', "slideDownIn", 0, 'inline-block')
   )
 
-animate = (element, delayms, displaymethod) ->
-  $(element).delay(delayms).velocity("transition.slideLeftIn", {duration: 400, stagger: 75, display: displaymethod})
+animate = (element, transition, delayms, displaymethod) ->
+  $(element).delay(delayms).velocity("transition."+transition, {duration: 400, stagger: 75, display: displaymethod})

@@ -5,7 +5,6 @@
   time: Spring 2014
   description: Built this static resume site to be clean and maintainable.
   tags:
-    - Middleman
     - Sass
     - Coffeescript
 -
