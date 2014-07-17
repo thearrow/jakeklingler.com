@@ -47,11 +47,12 @@
     display: inline-block
   .hr
     display: inline-block
-    float: right
     height: 1px
-    min-width: 75%
-    margin-top: 12px
-    +gradient(transparentize($light_gray, 1), opacify($light_gray, 1))
+    margin: 0 0 9px 20px
+    +gradient(opacify($light_gray, 1), transparentize($light_gray, 1))
+    width: 50%
+    @media #{$small}
+      width: 25%
 
 .tags
   list-style-type: none
