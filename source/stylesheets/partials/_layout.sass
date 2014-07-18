@@ -96,18 +96,26 @@
     &:hover
       border-bottom: 1px solid $med_gray
 
-.icon
+#link-icons
+  padding: 40px 5px
+.link-container
+  display: inline-block
+.link-title
+  display: inline-block
+  position: absolute
+  width: 100px
+  text-align: center
+  margin-left: 10px
+  margin-top: -20px
+.link-svg
   display: inline-block
   width: 100px
   height: 100px
   background-color: $light_gray
   fill: $med_gray
-  &:hover
-    fill: $dark_gray
-  @media #{$small}
-    margin: 4px 8px
-  @media #{$large}
-    margin: 40px 10px
+  margin: 0px 10px
+  pointer-events: none
+
 
 
 
