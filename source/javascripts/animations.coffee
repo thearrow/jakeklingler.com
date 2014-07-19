@@ -2,7 +2,7 @@ $ ->
   # disable animations on mobile
   return if window.matchMedia("only screen and (max-width: 768px)").matches
   
-  $('#link-icons > a').css('opacity',0)
+  $('.link-container').css('opacity',0)
   $('.link-title').css('opacity',0)
   $('.project').css('opacity',0)
   $('.position').css('opacity',0)
@@ -14,7 +14,7 @@ $ ->
   )
 
   $('#links').one('inview', (e, i, x, y) ->
-    animate('#link-icons > a', "slideDownIn", 0, 'inline-block')
+    animate('.link-container', "slideDownIn", 0, 'inline-block')
   )
 
   $('.link-square').mouseenter( -> 
