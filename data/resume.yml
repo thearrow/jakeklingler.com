@@ -3,6 +3,7 @@ positions:
     title: Software Developer
     location: Epic Systems, Verona, WI
     time: March 2014 – Present
+    icon: keyboard
     description: Working on EpicCare Inpatient healthcare software.
     tags:
       - C#/.NET
@@ -12,6 +13,7 @@ positions:
     title: Software Developer Intern
     location: Epic Systems, Verona, WI
     time: May 2013 – August 2013
+    icon: keyboard
     description: Designed and developed MyChart for Windows Phone 8 with two other interns.
     tags:
       - C#/.NET
@@ -20,6 +22,7 @@ positions:
     title: Student Programmer
     location: The Ohio State University, Libraries Web Team, Columbus, OH
     time: September 2009 – February 2013
+    icon: keyboard
     description: Assisted with design and development of library web projects.
     tags:
       - Ruby on Rails
