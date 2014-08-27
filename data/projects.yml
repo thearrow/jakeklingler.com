@@ -3,6 +3,7 @@
   url: https://github.com/thearrow/personal-site
   location: Personal Project
   time: Spring 2014
+  icon: screen
   description: Built this static resume site to be clean and maintainable.
   tags:
     - Sass
@@ -12,6 +13,7 @@
   url: https://github.com/thearrow/ttr
   location: The Ohio State University
   time: Fall 2013
+  icon: map
   description: Built a hybrid mobile app for viewing restaurant reviews,
     and a backend with admin interface and JSON API.
   tags:
@@ -22,6 +24,7 @@
   url: https://github.com/thearrow/cleaneats
   location: Personal Project
   time: Fall 2013
+  icon: compass
   description: Built a web app to improve dining out with dietary restrictions.
     Crowdsourced restaurant ratings on dietary attributes (vegan, paleo, etc.).
   tags:
@@ -32,6 +35,7 @@
   url: https://github.com/thearrow/quaker
   location: Personal Project
   time: Fall 2013
+  icon: earth
   description: Built a web app that pulls worldwide earthquakes from the USGS API
     and displays a geochart visualization.
   tags:
@@ -41,6 +45,7 @@
   url: https://www.epic.com/software-phr.php
   location: Epic Systems
   time: Summer 2013
+  icon: mobile
   description: Built a Windows Phone 8 App that allows patients to access their health information, view test results,
     send messages to their doctor, etc.
   tags:
@@ -51,6 +56,7 @@
   url: https://github.com/thearrow/securitysystem-android
   location: The Ohio State University
   time: Spring 2013
+  icon: warning
   description: Built sensors using Raspberry Pis and laser pointers that sent a
     push notification to an Android app when tripped.
   tags:
@@ -62,6 +68,7 @@
   url: https://github.com/thearrow/ai-financialANN
   location: The Ohio State University
   time: Spring 2013
+  icon: graph
   description: Designed and trained a recurrent neural network to predict
     the short-term movements of financial markets.
   tags:
@@ -72,6 +79,7 @@
   title: Libraries Web Projects
   location: The Ohio State University
   time: 2009-2013
+  icon: book
   description: Assisted with development of several applications for the
     OSU Libraries including a libraries map and an internal scheduling tool.
   tags:

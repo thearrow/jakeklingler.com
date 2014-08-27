@@ -32,8 +32,21 @@ education:
     title: B.S. Computer Science &amp; Engineering
     location: The Ohio State University, Columbus, OH
     time: December 2013
+    icon: graduation
     description:
     tags:
       - Java
       - C
       - Python
+  -
+    title: Startup Engineering Course
+    location: Stanford Univeristy MOOC
+    time: September 2013
+    icon: text
+    url: '/images/coursera-statement.pdf'
+    description:
+    tags:
+      - Node.JS
+      - AWS
+      - CSS
+      - HTML

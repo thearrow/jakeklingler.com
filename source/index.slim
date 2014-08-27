@@ -6,6 +6,8 @@
       h4 =data.main.subtitle
 
   #body
+    = partial "partials/icons"
+    
     #resume
       = partial "partials/title", :locals => { :title => "Work" }
       = partial "partials/items", :locals => { :items => data.resume.positions, :type => "position"}
@@ -20,3 +22,6 @@
     #links
       = partial "partials/title", :locals => { :title => "Links" }
       = partial "partials/links", :locals => { :links => data.links }
+
+  #footer
+    = partial "partials/footer"

@@ -7,23 +7,27 @@ $ ->
   $('.project').css('opacity',0)
   $('.position').css('opacity',0)
 
-  animate('.position', "slideLeftIn", 250, 'block')
+  animate('.position', "slideLeftIn", 250)
 
   $('#projects').one('inview', (e, i, x, y) ->
-    animate('.project', "slideLeftIn", 0, 'inline-block')
+    animate('.project', "slideLeftIn", 0)
   )
 
   $('#links').one('inview', (e, i, x, y) ->
-    animate('.link-container', "slideDownIn", 0, 'inline-block')
+    animate('.link-container', "slideDownIn", 0)
   )
 
-  $('.link-square').mouseenter( -> 
-    $(this).siblings('.link-title').delay(100).velocity('transition.slideUpIn', {duration: 100, display: 'inline-block'})
+  $('.link-square').mouseenter( ->
+    $(this).siblings('.link-title').delay(100)
+      .velocity('transition.slideUpIn', {duration: 100})
   )
 
-  $('.link-square').mouseleave( -> 
-    $(this).siblings('.link-title').delay(100).velocity('transition.slideDownOut', {duration: 100})
+  $('.link-square').mouseleave( ->
+    $(this).siblings('.link-title').delay(100)
+      .velocity('transition.slideDownOut', {duration: 100})
   )
  
-animate = (element, transition, delayms, displaymethod) ->
-  $(element).delay(delayms).velocity("transition."+transition, {duration: 400, stagger: 75, display: displaymethod})
+animate = (element, transition, delayms) ->
+  $(element).delay(delayms)
+    .velocity("transition."+transition,
+      {duration: 400, stagger: 75, display: 'inline-block'})
