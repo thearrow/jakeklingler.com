@@ -1,4 +1,6 @@
-[View on GitHub Pages](http://thearrow.github.io/personal-site)
+[jakeklingler.com](http://jakeklingler.com)
+--
+([View on GitHub Pages](http://thearrow.github.io/jakeklingler.com/))
 
 ###About
 Personal static resume site built with:
@@ -9,6 +11,8 @@ Personal static resume site built with:
     - [YAML](http://www.yaml.org/)
 - [Brick Webfonts](http://brick.im/)
 - [Bower](http://bower.io/)
+- [GitHub Pages](https://pages.github.com/)
+- [Entypo Icons](http://www.entypo.com/)
 
 Built with a focus on simplicity and maintainability, using languages chosen to wage war
 on squiggly braces, angle brackets, and semicolons.
