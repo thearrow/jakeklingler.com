@@ -29,13 +29,14 @@
     border: 1px solid $dark_gray
     @media #{$small}
       height: 50px
+      width: 50px
       margin-right: 5px
 
 #body
   max-width: $siteWidth
   margin: 0 auto
   @media #{$small}
-    padding: 0 10px
+    padding: 0 5px
 
 .section
   h4
@@ -72,6 +73,7 @@
   vertical-align: top
   @media #{$small}
     margin-top: 20px
+    margin-left: 10px
     width: 100%
     display: block
   .title
@@ -122,7 +124,10 @@
 #footer
   text-align: center
   margin-bottom: 20px
-  margin-left: -40px
+  margin-left: -140px
+  @media #{$small}
+    width: 100%
+    margin-left: 0
 
 
 
