@@ -1,2 +1,5 @@
-title: Jake Klingler
-subtitle: I'm a programmer in Madison, WI
+title: <span itemprop="name">Jake Klingler</span>
+subtitle: I'm a <span itemprop="jobTitle">Software Developer</span> in 
+  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <span itemprop="addressLocality">Madison</span>, 
+    <span itemprop="addressRegion">WI</span>

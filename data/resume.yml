@@ -1,7 +1,14 @@
 positions:
   -
     title: Software Developer
-    location: Epic Systems, Verona, WI
+    location: 
+      <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="name">Epic</span>, 
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Verona</span>,
+          <span itemprop="addressRegion">WI</span>
+        </span>
+      </span>
     time: March 2014 – Present
     icon: keyboard
     description: Working on EpicCare Inpatient healthcare software.
@@ -11,7 +18,7 @@ positions:
       - M
   -
     title: Software Developer Intern
-    location: Epic Systems, Verona, WI
+    location: Epic, Verona, WI
     time: May 2013 – August 2013
     icon: keyboard
     description: Designed and developed MyChart for Windows Phone 8 with two other interns.
@@ -33,7 +40,14 @@ positions:
 education:
   -
     title: B.S. Computer Science &amp; Engineering
-    location: The Ohio State University, Columbus, OH
+    location: 
+      <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+        <span itemprop="name">The Ohio State University</span>, 
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Columbus</span>,
+          <span itemprop="addressRegion">OH</span>
+        </span>
+      </span>
     time: December 2013
     icon: graduation
     description:
