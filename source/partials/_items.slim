@@ -5,7 +5,7 @@
         svg.icon-svg viewBox=("0 0 32 32") 
           use xlink:href="#icon-#{item.icon}"
       - if item.url
-        .title: a href=item.url target="_blank" =item.title
+        .title: a href=item.url target="_blank" onclick="analytics.track('#{item.title}');" =item.title 
         br
       - else
         .title =item.title
