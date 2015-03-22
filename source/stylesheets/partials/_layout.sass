@@ -51,9 +51,13 @@
     height: 1px
     margin: 0 0 9px 20px
     +gradient(opacify($light_gray, 1), transparentize($light_gray, 1))
-    width: 50%
+    width: 75%
     @media #{$small}
       width: 25%
+
+.container
+  @media #{$large}
+    margin-left: 30px
 
 .tags
   list-style-type: none
