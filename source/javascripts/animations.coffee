@@ -1,17 +1,9 @@
 $ ->
   # disable animations on mobile
   return if window.matchMedia("only screen and (max-width: 768px)").matches
-  
+
   $('.link-container').css('opacity',0)
   $('.link-title').css('opacity',0)
-  $('.project').css('opacity',0)
-  $('.position').css('opacity',0)
-
-  animate('.position', "slideLeftIn", 250)
-
-  $('#projects').one('inview', (e, i, x, y) ->
-    animate('.project', "slideLeftIn", 0)
-  )
 
   $('#links').one('inview', (e, i, x, y) ->
     animate('.link-container', "slideDownIn", 0)
@@ -26,7 +18,7 @@ $ ->
     $(this).siblings('.link-title').delay(100)
       .velocity('transition.slideDownOut', {duration: 100})
   )
- 
+
 animate = (element, transition, delayms) ->
   $(element).delay(delayms)
     .velocity("transition."+transition,

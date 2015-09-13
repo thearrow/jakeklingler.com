@@ -6,13 +6,11 @@ configure :development do
   activate :livereload
 end
 
-activate :bower
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :slim, pretty: true
 set :relative_links, true
-sprockets.append_path '/vendor'
 
 # Build-specific configuration
 configure :build do
