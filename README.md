@@ -9,13 +9,10 @@ Personal static resume site built with:
     - [SASS](http://sass-lang.com/)
     - [CoffeeScript](http://coffeescript.org/)
     - [YAML](http://www.yaml.org/)
-- [Brick Webfonts](http://brick.im/)
-- [Bower](http://bower.io/)
 - [GitHub Pages](https://pages.github.com/)
 - [Entypo Icons](http://www.entypo.com/)
 
-Built with a focus on simplicity and maintainability, using languages chosen to wage war
-on squiggly braces, angle brackets, and semicolons.
+Built with a focus on simplicity and maintainability, using languages chosen to wage war on squiggly braces, angle brackets, and semicolons.
 All actual content is in the `/data` folder, all layout is in `/source`.
 
 ###Development
@@ -23,7 +20,6 @@ All actual content is in the `/data` folder, all layout is in `/source`.
 ```
 git clone git@github.com:thearrow/personal-site.git
 cd personal-site
-bower install
 bundle install
 brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush
 middleman server
