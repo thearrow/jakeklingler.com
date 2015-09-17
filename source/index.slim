@@ -6,22 +6,22 @@
       h4 =data.main.subtitle
 
   #body
-    = partial "partials/icons"
-    
-    #resume
-      = partial "partials/title", :locals => { :title => "Work" }
-      = partial "partials/items", :locals => { :items => data.resume.positions, :type => "position"}
+    =partial "partials/icons"
 
-      = partial "partials/title", :locals => { :title => "Education" }
-      = partial "partials/items", :locals => { :items => data.resume.education, :type => "position" }
+    #resume
+      =partial "partials/title", :locals => { :title => "Work" }
+      =partial "partials/items", :locals => { :items => data.resume.positions, :type => "position"}
+
+      =partial "partials/title", :locals => { :title => "Education" }
+      =partial "partials/items", :locals => { :items => data.resume.education, :type => "position" }
 
     #projects
-      = partial "partials/title", :locals => { :title => "Projects" }
-      = partial "partials/items", :locals => { :items => data.projects, :type => "project" }
+      =partial "partials/title", :locals => { :title => "Projects" }
+      =partial "partials/items", :locals => { :items => data.projects, :type => "project" }
 
     #links
-      = partial "partials/title", :locals => { :title => "Links" }
-      = partial "partials/links", :locals => { :links => data.links }
+      =partial "partials/title", :locals => { :title => "Links" }
+      =partial "partials/links", :locals => { :links => data.links }
 
   #footer
-    = partial "partials/footer"
+    =partial "partials/footer"

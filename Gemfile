@@ -5,6 +5,7 @@ gem 'middleman-livereload'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
 gem 'middleman-deploy'
+gem 'middleman-blog'
 gem 'slim'
 gem 'oj'
 

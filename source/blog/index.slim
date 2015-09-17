@@ -1,0 +1,11 @@
+---
+title: Blog
+date: 2015-09-17 21:44 UTC
+tags:
+---
+
+-blog.articles.each do |article|
+  -if article.title != 'Blog'
+    a href=article.url
+      h1 =article.title
+      time =article.date.strftime('%b %e %Y')
