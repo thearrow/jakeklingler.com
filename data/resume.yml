@@ -1,17 +1,10 @@
 positions:
   -
     title: Software Developer
-    location:
-      <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-        <span itemprop="name">Epic</span>,
-        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <span itemprop="addressLocality">Verona</span>,
-          <span itemprop="addressRegion">WI</span>
-        </span>
-      </span>
-    time: March 2014 – Present
+    location: Epic, Verona, WI
+    time: March 2014 – August 2015
     icon: keyboard
-    description: Prototyping and developing a next-generation tool to review medical data.
+    description: Prototyped a next-generation tool to review medical data and added functionality to current healthcare software.
     tags:
       - C#/.NET
       - Javascript
