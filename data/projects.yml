@@ -4,7 +4,7 @@
   location: Epic
   time: Summer 2014 - Fall 2015
   icon: graph
-  description: Single-handedly prototyped the next generation dashboard for doctors
+  description: Single-handedly prototyped a next-generation tool for doctors
     to review a patient's medical data in the hospital using CoffeeScript and D3.js.
     The prototype involved heavy end-user customization and data visualization, and
     required working closely with UX Designers and developing multiple iterations

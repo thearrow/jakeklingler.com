@@ -22,9 +22,7 @@ configure :build do
       :comments => :none
     }
   })
-  activate :imageoptim do |image_optim|
-    image_optim.pngout_options = false
-  end
+  activate :imageoptim
 end
 
 activate :blog do |blog|
