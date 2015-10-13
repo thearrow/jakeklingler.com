@@ -7,7 +7,10 @@ positions:
     description: Prototyped a next-generation tool to review medical data and added functionality to current healthcare software.
     tags:
       - C#/.NET
-      - Javascript
+      - JavaScript
+      - CoffeeScript
+      - D3.js
+
   -
     title: Software Developer Intern
     location: Epic, Verona, WI
@@ -17,6 +20,7 @@ positions:
     tags:
       - C#/.NET
       - Windows Phone
+
   -
     title: Student Programmer
     location: The Ohio State University, Libraries Web Team, Columbus, OH
@@ -25,7 +29,7 @@ positions:
     description: Assisted with design and development of library web projects.
     tags:
       - Ruby on Rails
-      - Javascript
+      - JavaScript
       - CSS
       - HTML
 
@@ -47,6 +51,7 @@ education:
       - Java
       - C
       - Python
+
   -
     title: Startup Engineering Course
     location: Stanford Univeristy MOOC
@@ -55,7 +60,7 @@ education:
     url: '/images/coursera-statement.pdf'
     description:
     tags:
-      - Node.JS
+      - Node
       - AWS
       - CSS
       - HTML
