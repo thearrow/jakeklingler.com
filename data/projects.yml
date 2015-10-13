@@ -1,4 +1,36 @@
 -
+  title: Inpatient Dashboard Prototype
+  url:
+  location: Epic
+  time: Summer 2014 - Fall 2015
+  icon: graph
+  description: Single-handedly prototyped the next generation dashboard for doctors
+    to review a patient's medical data in the hospital using CoffeeScript and D3.js.
+    The prototype involved heavy end-user customization and data visualization, and
+    required working closely with UX Designers and developing multiple iterations
+    of the design based on user testing.
+  tags:
+    - CoffeeScript
+    - D3.js
+    - Gulp
+    - Browserify
+
+-
+  title: Cafeteria Dashboard
+  url: https://github.com/thearrow/cafeteria-dash
+  location: Epic
+  time: Summer 2015
+  icon: earth
+  description: A fun side-project to create a dashboard
+    for a cafeteria including crowding graphs, weather, and today's menu.
+    Involves image processing, a neural network, screen-scraping, SQL aggregates,
+    external API calls, caching, and basic data visualization.
+  tags:
+    - Python
+    - JavaScript
+    - flask
+
+-
   title: This Site
   url: https://github.com/thearrow/jakeklingler.com
   location: Personal Project
@@ -7,7 +39,8 @@
   description: Built this static resume site to be clean and maintainable.
   tags:
     - Sass
-    - Coffeescript
+    - CoffeeScript
+
 -
   title: Tasting Table Restaurants
   url: https://github.com/thearrow/ttr
@@ -18,7 +51,8 @@
     and a backend with admin interface and JSON API.
   tags:
     - Ruby on Rails
-    - Coffeescript
+    - CoffeeScript
+
 -
   title: Clean Eats
   url: https://github.com/thearrow/cleaneats
@@ -29,7 +63,8 @@
     Crowdsourced restaurant ratings on dietary attributes (vegan, paleo, etc.).
   tags:
     - Ruby on Rails
-    - Coffeescript
+    - CoffeeScript
+
 -
   title: Quaker
   url: https://github.com/thearrow/quaker
@@ -40,10 +75,11 @@
     and displays a geochart visualization.
   tags:
     - Ruby on Rails
+
 -
   title: MyChart Windows Phone
   url: https://www.epic.com/software-phr.php
-  location: Epic Systems
+  location: Epic
   time: Summer 2013
   icon: mobile
   description: Built a Windows Phone 8 App that allows patients to access their health information, view test results,
@@ -51,6 +87,7 @@
   tags:
     - C#/.NET
     - Windows Phone
+
 -
   title: Laser-Tripwire Security System
   url: https://github.com/thearrow/securitysystem-android
@@ -61,8 +98,9 @@
     push notification to an Android app when tripped.
   tags:
     - Ruby on Rails
-    - Javascript
+    - JavaScript
     - Python
+
 -
   title: Financial Neural Network
   url: https://github.com/thearrow/ai-financialANN
@@ -75,6 +113,7 @@
     - Python
     - scipy
     - pandas
+
 -
   title: Libraries Web Projects
   location: The Ohio State University
@@ -84,6 +123,6 @@
     OSU Libraries including a libraries map and an internal scheduling tool.
   tags:
     - Ruby on Rails
-    - Javascript
+    - JavaScript
     - CSS
     - HTML

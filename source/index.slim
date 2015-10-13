@@ -6,18 +6,17 @@
       h4 =data.main.subtitle
 
   #body
-    =partial "partials/icons"
-
-    #resume
+    #work
       =partial "partials/title", :locals => { :title => "Work" }
       =partial "partials/items", :locals => { :items => data.resume.positions, :type => "position"}
-
-      =partial "partials/title", :locals => { :title => "Education" }
-      =partial "partials/items", :locals => { :items => data.resume.education, :type => "position" }
 
     #projects
       =partial "partials/title", :locals => { :title => "Projects" }
       =partial "partials/items", :locals => { :items => data.projects, :type => "project" }
+
+    #education
+      =partial "partials/title", :locals => { :title => "Education" }
+      =partial "partials/items", :locals => { :items => data.resume.education, :type => "position" }
 
     #links
       =partial "partials/title", :locals => { :title => "Links" }
@@ -25,3 +24,5 @@
 
   #footer
     =partial "partials/footer"
+
+  =partial "partials/icons"
