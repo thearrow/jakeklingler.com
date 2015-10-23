@@ -18,7 +18,7 @@
 -
   title: Cafeteria Dashboard
   url: https://github.com/thearrow/cafeteria-dash
-  location: Epic
+  location: Personal Project
   time: Summer 2015
   icon: earth
   description: A fun side-project to create a dashboard
@@ -28,7 +28,7 @@
   tags:
     - Python
     - JavaScript
-    - flask
+    - Flask
 
 -
   title: This Site
