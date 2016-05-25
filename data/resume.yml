@@ -1,6 +1,19 @@
 positions:
   -
     title: Software Developer
+    location: Type/Code, Brooklyn, NY (Remote)
+    time: February 2016 – May 2016
+    icon: keyboard
+    description: Prototyped a next-generation tool to review medical data and added functionality to current healthcare software.
+    tags:
+      - Python
+      - Django
+      - JavaScript
+      - React
+      - C++
+
+  -
+    title: Software Developer
     location: Epic, Verona, WI
     time: March 2014 – August 2015
     icon: keyboard

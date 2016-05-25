@@ -31,17 +31,6 @@
     - Flask
 
 -
-  title: This Site
-  url: https://github.com/thearrow/jakeklingler.com
-  location: Personal Project
-  time: Spring 2014
-  icon: screen
-  description: Built this static resume site to be clean and maintainable.
-  tags:
-    - Sass
-    - CoffeeScript
-
--
   title: Tasting Table Restaurants
   url: https://github.com/thearrow/ttr
   location: The Ohio State University
@@ -107,7 +96,7 @@
   location: The Ohio State University
   time: Spring 2013
   icon: graph
-  description: Designed and trained a recurrent neural network to predict
+  description: Built and trained a recurrent neural network to predict
     the short-term movements of financial markets.
   tags:
     - Python
