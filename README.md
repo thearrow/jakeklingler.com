@@ -22,10 +22,10 @@ git clone git@github.com:thearrow/personal-site.git
 cd personal-site
 bundle install
 brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush
-middleman server
+bundle exec middleman server
 ```
 
 ###Deployment
 ```
-middleman deploy
+bundle exec middleman deploy
 ```
