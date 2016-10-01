@@ -19,40 +19,40 @@ gulp.task('build', ['clean', 'src', 'hugo:build'])
 gulp.task('src', ['styles', 'scripts', 'images', 'favicons'])
 gulp.task('clean', () => del(['static/**/*', 'public/**/*']))
 
-gulp.task('watch', () => {
+gulp.task('watch', ['src'], () => {
     gulp.watch(Object.keys(paths).map((key) => paths[key]), ['src'])                                         
 })
 
-gulp.task('hugo', () => {
+gulp.task('hugo', ['src'], () => {
     let hugo = exec('hugo server')
     hugo.stdout.on('data', (data) => {
         console.log(data)
     })
 })
 
-gulp.task('hugo:build', () => {
+gulp.task('hugo:build', ['src'], () => {
     let hugo = exec('hugo')
     hugo.stdout.on('data', (data) => {
         console.log(data)
     })
 })
 
-gulp.task('styles', () => gulp.src(paths.styles)
+gulp.task('styles', ['clean'], () => gulp.src(paths.styles)
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
     .pipe(cleancss({advanced:true}))
     .pipe(gulp.dest('static/styles'))
 )
 
-gulp.task('scripts', () => gulp.src(paths.scripts)
+gulp.task('scripts', ['clean'], () => gulp.src(paths.scripts)
     .pipe(babel())
     .pipe(gulp.dest('static/scripts'))
 )
 
-gulp.task('images', () => gulp.src(paths.images)
+gulp.task('images', ['clean'], () => gulp.src(paths.images)
     .pipe(gulp.dest('static/images'))
 )
 
-gulp.task('favicons', () => gulp.src(paths.favicons)
+gulp.task('favicons', ['clean'], () => gulp.src(paths.favicons)
     .pipe(gulp.dest('static'))
 )
