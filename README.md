@@ -8,7 +8,6 @@ Personal static resume site built with:
 
 
 ###Development
-```
 - [Install Git](https://git-scm.com/)
 - [Install NodeJS](https://nodejs.org/en/)
 - [Install Hugo](https://gohugo.io/overview/installing/)
@@ -16,8 +15,7 @@ Personal static resume site built with:
 - `cd jakeklingler.com`
 - `npm install`
 - `npm start`
-```
+
 
 ###Deployment
-```
-```
+- `./deploy.sh`
