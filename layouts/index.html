@@ -11,8 +11,30 @@
         <link rel="stylesheet" href="styles/index.css">
     </head>
     <body>
-        Hello Hugo
+        {{ partial "header.html" }}
 
+        <h2>Work</h2>
+        <div class="work">
+            {{ range where .Data.Pages "Section" "work" }}
+                {{ .Render "summary" }}
+            {{ end }}
+        </div>
+
+        <h2>Projects</h2>
+        <div class="projects">
+            {{ range where .Data.Pages "Section" "projects" }}
+                {{ .Render "summary" }}
+            {{ end }}
+        </div>
+
+        <h2>Education</h2>
+        <div class="education">
+            {{ range where .Data.Pages "Section" "education" }}
+                {{ .Render "summary" }}
+            {{ end }}
+        </div>
+
+        {{ partial "footer.html" }}
         <script src="scripts/index.js"></script>
     </body>
 </html>

@@ -14,16 +14,13 @@ const paths = {
   favicons: 'src/favicons/*',
 }
 
-gulp.task('default', ['src', 'watch', 'hugo'])
-gulp.task('build', ['src', 'hugo:build'])
-gulp.task('src', ['clean', 'styles', 'scripts', 'images', 'favicons'])
-gulp.task('clean', () => del(['static/**/*',]))
+gulp.task('default', ['clean', 'src', 'watch', 'hugo'])
+gulp.task('build', ['clean', 'src', 'hugo:build'])
+gulp.task('src', ['styles', 'scripts', 'images', 'favicons'])
+gulp.task('clean', () => del(['static/**/*']))
 
 gulp.task('watch', () => {
-    gulp.watch(paths.styles, ['clean', 'styles']) 
-    gulp.watch(paths.scripts, ['clean', 'scripts'])
-    gulp.watch(paths.images, ['clean', 'images'])     
-    gulp.watch(paths.favicons, ['clean', 'favicons'])                                                   
+    gulp.watch(Object.keys(paths).map((key) => paths[key]), ['src'])                                         
 })
 
 gulp.task('hugo', () => {
