@@ -1,4 +1,5 @@
 ---
-baseurl: "http://jakeklingler.com"
+baseurl: "https://jakeklingler.com"
 title: "Jake Klingler - Software Developer"
+canonifyurls: true
 ...
