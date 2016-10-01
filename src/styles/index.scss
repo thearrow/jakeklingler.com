@@ -11,19 +11,25 @@ body {
     background-color: $color-background;
 }
 
+div {
+    box-sizing: border-box;        
+}
+
+a {
+    color: black;
+}
+
 header {
     text-align: center;
 }
 
 .grid {
-    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .grid-item {
-    box-sizing: border-box;
     flex: 0 0 auto;
     padding: 5px;    
     width: 100%;
@@ -35,9 +41,8 @@ header {
 }
 
 section {
-    box-sizing: border-box;
     margin: auto;
-    padding: 0 20px;
+    padding: 20px 0;
     width: 100%;
 
     @include media(">md") {
@@ -50,9 +55,22 @@ section {
 }
 
 footer {
+    background-color: $color-footer;
+    padding-top: 20px;
     text-align: center;
 
+    ul {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+
     li {
-        display: inline-block;
+        display: block;
+        padding: 20px;
+
+        @include media(">md") {
+            display: inline-block
+        }        
     }
 }
