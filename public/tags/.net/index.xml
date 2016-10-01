@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Net on Jake Klingler - Software Developer</title>
+    <link>http://jakeklingler.com/tags/index.net/</link>
+    <description>Recent content in .Net on Jake Klingler - Software Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://jakeklingler.com/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Software Developer</title>
+      <link>http://jakeklingler.com/work/epic/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/work/epic/</guid>
+      <description>&lt;p&gt;Added functionality to large healthcare software and prototyped a next-generation tool to review medical data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MyChart Windows Phone</title>
+      <link>http://jakeklingler.com/projects/mychart-winphone/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/projects/mychart-winphone/</guid>
+      <description>&lt;p&gt;Built a Windows Phone 8 App that allows patients to access their health information,
+view test results,send messages to their doctor, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Developer Intern</title>
+      <link>http://jakeklingler.com/work/epic-intern/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/work/epic-intern/</guid>
+      <description>&lt;p&gt;Designed and developed MyChart for Windows Phone 8 with two other interns.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

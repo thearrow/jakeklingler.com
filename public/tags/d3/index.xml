@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D3 on Jake Klingler - Software Developer</title>
+    <link>http://jakeklingler.com/tags/d3/</link>
+    <description>Recent content in D3 on Jake Klingler - Software Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://jakeklingler.com/tags/d3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Inpatient Dashboard Prototype</title>
+      <link>http://jakeklingler.com/projects/timeline-prototype/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/projects/timeline-prototype/</guid>
+      <description>&lt;p&gt;Prototyped a next-generation tool for doctors to review medical data.
+The prototype involved heavy end-user customization and data visualization,
+and required working closely with UX Designers and developing multiple
+iterations of the design based on user testing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Developer</title>
+      <link>http://jakeklingler.com/work/epic/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/work/epic/</guid>
+      <description>&lt;p&gt;Added functionality to large healthcare software and prototyped a next-generation tool to review medical data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

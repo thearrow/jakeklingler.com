@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Jake Klingler - Software Developer</title>
+    <link>http://jakeklingler.com/work/</link>
+    <description>Recent content in Works on Jake Klingler - Software Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://jakeklingler.com/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Software Developer</title>
+      <link>http://jakeklingler.com/work/typecode/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/work/typecode/</guid>
+      <description>&lt;p&gt;Developed engaging interactive experiences for clients including General Electric.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Developer</title>
+      <link>http://jakeklingler.com/work/epic/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/work/epic/</guid>
+      <description>&lt;p&gt;Added functionality to large healthcare software and prototyped a next-generation tool to review medical data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software Developer Intern</title>
+      <link>http://jakeklingler.com/work/epic-intern/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/work/epic-intern/</guid>
+      <description>&lt;p&gt;Designed and developed MyChart for Windows Phone 8 with two other interns.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Student Programmer</title>
+      <link>http://jakeklingler.com/work/osu/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://jakeklingler.com/work/osu/</guid>
+      <description>&lt;p&gt;Assisted with design and development of library web projects.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
