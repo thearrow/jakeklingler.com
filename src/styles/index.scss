@@ -60,7 +60,7 @@ header {
 
 section {
     margin: auto;
-    padding: 20px 0;
+    padding: 20px 10px;
     width: 100%;
 
     @include media(">md") {
@@ -85,9 +85,14 @@ footer {
     li {
         display: block;
         padding: 20px;
+        transition: background-color $transition-time;
 
         @include media(">md") {
             display: inline-block
-        }        
+        }     
+
+        &:hover {
+            background-color: $color-link-hover;
+        }   
     }
 }
