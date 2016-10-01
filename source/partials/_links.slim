@@ -1,9 +1,0 @@
-- if links
-  #link-icons
-    - for link in links do
-      .link-container
-        a rel="me" href=link.url target="_blank" title=link.title onclick="analytics.track('#{link.title}');"
-          .link-title =link.title
-          .link-square
-            svg.link-svg viewBox=("0 0 49 64")
-              use xlink:href="#icon-#{link.icon}"

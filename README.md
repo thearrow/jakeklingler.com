@@ -4,28 +4,20 @@
 
 ###About
 Personal static resume site built with:
-- [Middleman](http://middlemanapp.com/)
-    - [Slim](http://slim-lang.com/)
-    - [SASS](http://sass-lang.com/)
-    - [CoffeeScript](http://coffeescript.org/)
-    - [YAML](http://www.yaml.org/)
-- [GitHub Pages](https://pages.github.com/)
-- [Entypo Icons](http://www.entypo.com/)
+- [Hugo](https://gohugo.io/)
 
-Built with a focus on simplicity and maintainability, using languages chosen to wage war on squiggly braces, angle brackets, and semicolons.
-All actual content is in the `/data` folder, all layout is in `/source`.
 
 ###Development
-(*OSX with Homebrew*)
 ```
-git clone git@github.com:thearrow/personal-site.git
-cd personal-site
-bundle install
-brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush
-bundle exec middleman server
+- [Install Git](https://git-scm.com/)
+- [Install NodeJS](https://nodejs.org/en/)
+- [Install Hugo](https://gohugo.io/overview/installing/)
+- `git clone git@github.com:thearrow/jakeklingler.com.git`
+- `cd jakeklingler.com`
+- `npm install`
+- `npm start`
 ```
 
 ###Deployment
 ```
-bundle exec middleman deploy
 ```

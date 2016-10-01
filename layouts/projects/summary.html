@@ -1,0 +1,13 @@
+<div class="projects-item grid-item">
+    {{ if .Params.link }}<a href="{{ .Params.link}}">{{ end }}
+    <div>
+        <h4>{{ .Title }}</h4>
+        <p>{{ .Params.location }}</p>
+        <p>{{ .Date.Format "January 2006" }}</p>
+        <ul class="tags">
+            {{ range .Params.tags }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        <p>{{ .Content }}</p>
+    </div>
+    {{ if .Params.link }}</a>{{ end }}    
+</div>
