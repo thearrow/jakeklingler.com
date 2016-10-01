@@ -17,7 +17,7 @@ const paths = {
 gulp.task('default', ['clean', 'src', 'watch', 'hugo'])
 gulp.task('build', ['clean', 'src', 'hugo:build'])
 gulp.task('src', ['styles', 'scripts', 'images', 'favicons'])
-gulp.task('clean', () => del(['static/**/*']))
+gulp.task('clean', () => del(['static/**/*', 'public/**/*']))
 
 gulp.task('watch', () => {
     gulp.watch(Object.keys(paths).map((key) => paths[key]), ['src'])                                         
