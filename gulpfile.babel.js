@@ -1,6 +1,7 @@
 var gulp = require('gulp')
 var gutil = require('gulp-util')
 var sass = require('gulp-sass')
+const babel = require('gulp-babel')
 var autoprefixer = require('gulp-autoprefixer')
 var cleancss = require('gulp-clean-css')
 var exec = require('child_process').exec
@@ -40,5 +41,7 @@ gulp.task('styles', () => {
 })
 
 gulp.task('scripts', () => {
-    return
+    return gulp.src(paths.scripts)
+        .pipe(babel())
+        .pipe(gulp.dest('static/scripts'))
 })
