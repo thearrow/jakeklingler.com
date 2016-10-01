@@ -13,26 +13,32 @@
     <body>
         {{ partial "header.html" }}
 
-        <h2>Work</h2>
-        <div class="work">
-            {{ range where .Data.Pages "Section" "work" }}
-                {{ .Render "summary" }}
-            {{ end }}
-        </div>
+        <section>
+            <h2>Work</h2>
+            <div class="work grid">
+                {{ range where .Data.Pages "Section" "work" }}
+                    {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        </section>
 
-        <h2>Projects</h2>
-        <div class="projects">
-            {{ range where .Data.Pages "Section" "projects" }}
-                {{ .Render "summary" }}
-            {{ end }}
-        </div>
+        <section>        
+            <h2>Projects</h2>
+            <div class="projects grid">
+                {{ range where .Data.Pages "Section" "projects" }}
+                    {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        </section>
 
-        <h2>Education</h2>
-        <div class="education">
-            {{ range where .Data.Pages "Section" "education" }}
-                {{ .Render "summary" }}
-            {{ end }}
-        </div>
+        <section>
+            <h2>Education</h2>
+            <div class="education grid">
+                {{ range where .Data.Pages "Section" "education" }}
+                    {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        </section>
 
         {{ partial "footer.html" }}
         <script src="scripts/index.js"></script>

@@ -1,6 +1,6 @@
 ---
 title: "Software Developer"
-location: Type/Code, (Remote) Brooklyn, NY"
+location: "Type/Code, (Remote) Brooklyn, NY"
 tags: [ "Python", "Django", "JS", "React", "C++" ]
 date: "2016-02-01"
 start: "February 2016"
