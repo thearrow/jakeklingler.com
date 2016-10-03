@@ -1,9 +1,12 @@
-$color-header: darken(white, 10%);
+$color-header: darken(white, 8%);
 $color-background: darken(white, 2%);
-$color-tags: darken(white, 15%);
-$color-footer: darken(white, 10%);
-$color-link-hover: darken(white, 15%);
+$color-text: #222;
+$color-tags: darken(white, 12%);
+$color-footer: darken(white, 8%);
+$color-link-hover: darken(white, 12%);
 
 $breakpoints: (sm: 568px, md: 768px, lg: 1024px, xl: 1280px);
 
-$transition-time: 400ms;
+$shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+
+$transition-time: 300ms;

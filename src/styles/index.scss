@@ -1,12 +1,14 @@
 @import 'vendor/normalize';
 @import 'vendor/include-media';
-@import 'https://fonts.googleapis.com/css?family=Lato:300|Roboto+Slab';
+@import 'https://fonts.googleapis.com/css?family=Lato:400|Roboto+Slab';
 @import 'vars';
 
 body {
     background-color: $color-background;
+    color: $color-text;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1, h2, h3, h4, h5 {
@@ -14,30 +16,37 @@ h1, h2, h3, h4, h5 {
     font-weight: 400;
 }
 
-div, li, ul {
+div, li, ul, section {
     box-sizing: border-box;
     padding: 0;
     margin: 0;        
 }
 
 a {
-    color: black;
+    color: $color-text;
     text-decoration: none;
 }
 
 header {
     background-color: $color-header;
+    margin-bottom: 40px;
     padding: 30px 0;
     text-align: center;
 
     h1 {
         margin: 0;
+        text-shadow: $shadow;
     }
 
     img {
+        box-shadow: $shadow;
         height: 100px;
         margin-top: 20px;
         width: 100px;
+    }
+
+    h3 {
+        text-shadow: $shadow;
     }
 }
 
@@ -61,6 +70,8 @@ header {
 .tags {
     li {
         background-color: $color-tags;
+        box-shadow: $shadow;
+        cursor: default;
         display: inline-block;
         margin: 5px;
         padding: 5px;
@@ -69,7 +80,7 @@ header {
 
 section {
     margin: auto;
-    padding: 20px 10px;
+    padding: 40px 10px;
     width: 100%;
 
     @include media(">md") {
@@ -79,12 +90,25 @@ section {
     @include media(">xl") {
         width: 60%;
     }
+
+    h2 {
+        text-shadow: $shadow;
+    }
+
+    .location {
+        margin-bottom: 0;
+    }
+
+    .time {
+        color: lighten($color-text, 25%);
+        margin-top: 5px;
+    }
 }
 
 footer {
     background-color: $color-footer;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 40px;
+    padding: 40px 0;
     text-align: center;
 
     ul {
@@ -92,16 +116,19 @@ footer {
     }
 
     li {
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
         display: block;
         padding: 20px;
-        transition: background-color $transition-time;
+        transition: background-color $transition-time, box-shadow ($transition-time * 2);
+        will-change: box-shadow, background-color;
 
         @include media(">md") {
             display: inline-block
-        }     
+        }
 
         &:hover {
             background-color: $color-link-hover;
+            box-shadow: $shadow;
         }   
     }
 }
