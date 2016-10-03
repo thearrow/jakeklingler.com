@@ -1,10 +1,12 @@
 ---
-title: "Tasting Table Restaurants"
+title: "Cafeteria Dashboard"
 location: "Personal Project"
-tags: [ "Ruby", "JS", "PhoneGap" ]
-date: "2013-09-01"
-link: "https://github.com/thearrow/ttr"
+tags: [ "Python", "JS", "Flask", "Theano" ]
+date: "2015-06-01"
+link: "https://github.com/thearrow/cafeteria-dash"
 ---
 
-Built a mobile app for viewing restaurant reviews (lightweight Yelp clone),
-and a backend with admin interface and JSON API.
+A fun side-project to create a dashboard
+for a cafeteria including crowding graphs, weather, and today's menu.
+Involved image processing, neural networks, screen-scraping, SQL aggregates,
+external API calls, caching, and basic data visualization.
