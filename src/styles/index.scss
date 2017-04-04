@@ -29,8 +29,7 @@ a {
 
 header {
     background-color: $color-header;
-    margin-bottom: 40px;
-    padding: 30px 0;
+    padding: 30px 10px;
     text-align: center;
 
     h1 {
@@ -58,11 +57,12 @@ header {
 
 .grid-item {
     flex: 0 0 auto;
-    padding: 5px;    
+    padding: 20px 0;    
     width: 100%;
 
     @include media(">md") {
-        padding: 10px 30px;        
+        padding-top: 30px;
+        padding-right: 30px;        
         width: 50%;
     }
 }
@@ -73,22 +73,28 @@ header {
         box-shadow: $shadow;
         cursor: default;
         display: inline-block;
-        margin: 5px;
-        padding: 5px;
+        margin-right: 10px;
+        padding: 3px 6px;
     }
 }
 
 section {
     margin: auto;
-    padding: 40px 10px;
+    padding: 60px 10px;
     width: 100%;
 
     @include media(">md") {
         width: 80%;
+        & > * {
+            margin-left: 60px;
+        }
     }
 
     @include media(">xl") {
         width: 60%;
+        & > * {
+            margin-left: 60px;
+        }
     }
 
     h2 {
@@ -101,14 +107,20 @@ section {
 
     .time {
         color: lighten($color-text, 25%);
+        font-size: 13px;
         margin-top: 5px;
+    }
+
+    .description {
+        color: $color-text;
+        line-height: 1.6;
     }
 }
 
 footer {
     background-color: $color-footer;
     margin-top: 40px;
-    padding: 40px 0;
+    padding: 60px 0;
     text-align: center;
 
     ul {

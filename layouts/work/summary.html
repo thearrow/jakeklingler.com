@@ -4,10 +4,10 @@
         <h3>{{ .Title }}</h3>
         <p class="location">{{ .Params.location }}</p>
         <p class="time">{{ .Params.start }} - {{ .Params.end }}</p>
+        <p class="description">{{ .Content | markdownify }}</p>
         <ul class="tags">
             {{ range .Params.tags }}<li>{{ . }}</li>{{ end }}
         </ul>
-        <p>{{ .Content }}</p>
     </div>
     {{ if .Params.link }}</a>{{ end }}    
 </div>
