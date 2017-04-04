@@ -19,5 +19,6 @@ Personal static resume site built with:
 
 
 ### Deployment
-- [Netlify](https://app.netlify.com/)
+- [Netlify](https://app.netlify.com/sites/jakeklingler)
+- [Cloudflare](https://www.cloudflare.com)
 - [Forestry](https://forestry.io/)
