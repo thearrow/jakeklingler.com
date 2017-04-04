@@ -1,21 +1,23 @@
 [jakeklingler.com](http://jakeklingler.com)
 --
-([View on GitHub Pages](http://thearrow.github.io/jakeklingler.com/))
 
-###About
+
+### About
 Personal static resume site built with:
 - [Hugo](https://gohugo.io/)
 
 
-###Development
+### Development
 - [Install Git](https://git-scm.com/)
 - [Install NodeJS](https://nodejs.org/en/)
+- [Install Yarn](https://yarnpkg.com/lang/en/docs/install/)
 - [Install Hugo](https://gohugo.io/overview/installing/)
 - `git clone git@github.com:thearrow/jakeklingler.com.git`
 - `cd jakeklingler.com`
-- `npm install`
-- `npm start`
+- `yarn`
+- `yarn start`
 
 
-###Deployment
-- `./deploy.sh`
+### Deployment
+- [Netlify](https://app.netlify.com/)
+- [Forestry](https://forestry.io/)
