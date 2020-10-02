@@ -1,10 +1,12 @@
 ---
-title: Software Developer
-location: Oncora Medical, (Remote) Philadelphia, PA
+title: Senior Software Engineer
+company: Oncora Medical
+location: Remote
 tags:
 - JS
 - React
 - Python
+- Flask
 - AWS
 date: 2016-05-01
 start: May 2016

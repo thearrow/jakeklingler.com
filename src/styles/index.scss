@@ -101,19 +101,23 @@ section {
         text-shadow: $shadow;
     }
 
-    .location {
+    .company {
         margin-bottom: 0;
     }
 
-    .time {
+    .location, .time {
         color: lighten($color-text, 25%);
         font-size: 13px;
-        margin-top: 5px;
+        margin: 4px auto;
     }
 
     .description {
         color: $color-text;
         line-height: 1.6;
+    }
+
+    .tags {
+        margin-top: 16px;
     }
 }
 

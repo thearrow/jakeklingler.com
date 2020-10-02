@@ -2,7 +2,7 @@
     {{ if .Params.link }}<a href="{{ .Params.link}}">{{ end }}
     <div>
         <h3>{{ .Title }}</h3>
-        <p class="location">{{ .Params.location }}</p>
+        <p class="company">{{ .Params.company }}</p>
         <p class="time">{{ .Date.Format "January 2006" }}</p>
         <p class="description">{{ .Content | markdownify }}</p>
         <ul class="tags">

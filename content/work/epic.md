@@ -1,6 +1,7 @@
 ---
-title: Software Developer
-location: Epic, Verona, WI
+title: Software Engineer
+company: Epic
+location: Verona, WI
 tags:
 - JS
 - D3

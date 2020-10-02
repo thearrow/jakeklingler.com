@@ -1,11 +1,11 @@
 ---
 title: Cafeteria Dashboard
-location: Personal Project
+company: Personal Project
 tags:
+- JS
 - Python
 - Flask
 - Theano
-- JS
 date: 2015-06-01
 link: https://github.com/thearrow/cafeteria-dash
 

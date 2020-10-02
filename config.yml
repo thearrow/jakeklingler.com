@@ -3,6 +3,6 @@ baseurl: "https://jakeklingler.com"
 title: "Jake Klingler - Software Developer"
 canonifyurls: true
 disableKinds: 
-  - "taxonomy"
-  - "taxonomyTerm"
+  - taxonomy
+  - taxonomyTerm
 ...

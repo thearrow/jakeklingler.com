@@ -1,6 +1,6 @@
 ---
 title: Inpatient Dashboard Prototype
-location: Epic
+company: Epic
 tags:
 - JS
 - D3

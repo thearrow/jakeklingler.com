@@ -1,6 +1,7 @@
 ---
-title: "Software Developer"
-location: "Type/Code, (Remote) Brooklyn, NY"
+title: Software Engineer
+company: "Type/Code"
+location: Remote
 tags: 
 - JS
 - React

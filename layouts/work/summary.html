@@ -2,6 +2,7 @@
     {{ if .Params.link }}<a href="{{ .Params.link}}">{{ end }}
     <div>
         <h3>{{ .Title }}</h3>
+        <p class="company">{{ .Params.company }}</p>
         <p class="location">{{ .Params.location }}</p>
         <p class="time">{{ .Params.start }} - {{ .Params.end }}</p>
         <p class="description">{{ .Content | markdownify }}</p>

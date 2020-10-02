@@ -1,7 +1,9 @@
 ---
 title: "MyChart Windows Phone"
-location: "Epic"
-tags: [ "C#", ".NET", "Windows Phone" ]
+company: "Epic"
+tags: 
+- "C#"
+- ".NET"
 date: "2013-06-01"
 ---
 

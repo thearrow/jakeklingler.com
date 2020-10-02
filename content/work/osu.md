@@ -1,9 +1,10 @@
 ---
-title: "Software Developer"
-location: "The Ohio State University, Libraries Web Team, Columbus, OH"
+title: Software Engineer
+company: The Ohio State University Libraries Web Team
+location: Columbus, OH
 tags: 
 - JS
-- Ruby
+- Ruby on Rails
 date: "2009-09-01"
 start: "September 2009"
 end: "February 2013"

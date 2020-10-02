@@ -16,40 +16,32 @@ const paths = {
   favicons: 'src/favicons/*',
 }
 
-gulp.task('default', ['clean', 'src', 'watch', 'hugo'])
-gulp.task('build', ['clean', 'src', 'hugo:build', 'minify-html'])
-gulp.task('src', ['styles', 'scripts', 'images', 'favicons'])
-gulp.task('clean', () => del(['static/**/*', 'public/**/*']))
+const clean = () => del(['static/**/*', 'public/**/*'])
 
-gulp.task('watch', ['src'], () => {
-    gulp.watch(Object.keys(paths).map((key) => paths[key]), ['src'])                                         
-})
-
-gulp.task('hugo', ['src'], shell.task('hugo server'))
-
-gulp.task('hugo:build', ['src'], shell.task('hugo'))
-
-gulp.task('styles', ['clean'], () => gulp.src(paths.styles)
+const styles = () => gulp.src(paths.styles)
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
     .pipe(cleancss({advanced:true}))
     .pipe(gulp.dest('static/styles'))
-)
 
-gulp.task('scripts', ['clean'], () => gulp.src(paths.scripts)
-    .pipe(babel())
+const scripts = () => gulp.src(paths.scripts)
+    .pipe(babel({
+        presets: ['@babel/preset-env']
+    }))
     .pipe(gulp.dest('static/scripts'))
-)
 
-gulp.task('images', ['clean'], () => gulp.src(paths.images)
+const images = () => gulp.src(paths.images)
     .pipe(gulp.dest('static/images'))
-)
 
-gulp.task('favicons', ['clean'], () => gulp.src(paths.favicons)
+const favicons = () => gulp.src(paths.favicons)
     .pipe(gulp.dest('static'))
-)
 
-gulp.task('minify-html', ['hugo:build'], () => gulp.src('public/**/*.html')
+const src = gulp.series(clean, gulp.parallel(styles, scripts, images, favicons))
+const hugo = gulp.series(src, shell.task('hugo server'))
+const hugoBuild = gulp.series(src, shell.task('hugo'))
+const watch = () => gulp.watch(Object.keys(paths).map((key) => paths[key]), src)                                         
+
+const minifyHtml = () => gulp.src('public/**/*.html')
     .pipe(htmlmin({
         collapseWhitespace: true,
         minifyCSS: true,
@@ -58,4 +50,9 @@ gulp.task('minify-html', ['hugo:build'], () => gulp.src('public/**/*.html')
         useShortDoctype: true,
     }))
     .pipe(gulp.dest('public'))
-)
+
+const build = gulp.series(src, hugoBuild, minifyHtml)
+exports.build = build
+
+const defaultTask = gulp.series(src, gulp.parallel(watch, hugo))
+exports.default = defaultTask

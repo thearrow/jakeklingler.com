@@ -1,7 +1,10 @@
 ---
 title: "Laser-Tripwire Security System"
-location: "The Ohio State University"
-tags: [ "Ruby", "Python", "JS" ]
+company: "The Ohio State University"
+tags:
+- JS
+- Ruby
+- Python
 date: "2013-03-01"
 link: "https://github.com/thearrow/securitysystem-android"
 ---
