@@ -10,5 +10,5 @@ start: "May 2013"
 end: "August 2013"
 ---
 
-Worked on a team with two other interns to design and develop 
-a Windows Phone 8 healthcare application.
+Worked on a team with other interns to design and develop 
+a healthcare application for Windows Phone.
