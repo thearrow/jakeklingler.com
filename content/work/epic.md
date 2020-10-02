@@ -12,4 +12,4 @@ start: March 2014
 end: August 2015
 
 ---
-Maintained and added features to one of the most widely-used Electronic Health Record systems in the country. Prototyped a tool for reviewing a patient's medical data.
+Maintained and added features to one of the largets Electronic Health Record systems in the world.
