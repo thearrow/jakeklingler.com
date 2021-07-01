@@ -2,10 +2,9 @@
 title: Radiation Oncology Suite
 company: Oncora Medical
 tags:
-- JS
+- TS
 - React
 - Python
-- Flask
 - AWS
 date: 2020-09-20
 

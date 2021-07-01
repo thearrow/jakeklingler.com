@@ -1,5 +1,5 @@
 ---
-title: Software Engineering Intern
+title: Software Engineer Intern
 company: Epic
 location: Verona, WI
 tags:
