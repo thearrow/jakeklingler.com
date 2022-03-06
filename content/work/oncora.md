@@ -3,7 +3,7 @@ title: Senior Software Engineer
 company: Oncora Medical
 location: Remote
 tags:
-- TS
+- TypeScript
 - React
 - Python
 - AWS

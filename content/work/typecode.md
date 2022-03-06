@@ -3,10 +3,9 @@ title: Software Engineer
 company: "Type/Code"
 location: Remote
 tags: 
-- JS
+- JavaScript
 - React
 - Python
-- Django
 - AWS
 date: "2016-02-01"
 start: "February 2016"

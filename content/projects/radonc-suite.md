@@ -1,14 +1,13 @@
 ---
-title: Radiation Oncology Suite
-company: Oncora Medical
+title: PIAQ
+company: Personal Project
 tags:
-- TS
-- React
-- Python
-- AWS
-date: 2020-09-20
+- Rust
+- PostgreSQL
+- Grafana
+date: 2021-09-20
+link: https://github.com/thearrow/piaq
 
 ---
-Designed and developed a radiation oncology software suite, 
-including clinical data capture workflows and research-grade analytics tools.
-Deployed highly-available, HIPAA-compliant infrastructure on AWS. 
+A side-project to create a dashboard
+for an indoor air quality sensor running on a Raspberry Pi.

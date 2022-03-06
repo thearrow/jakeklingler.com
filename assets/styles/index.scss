@@ -1,6 +1,5 @@
 @import 'vendor/normalize';
 @import 'vendor/include-media';
-@import 'https://fonts.googleapis.com/css?family=Lato:400|Roboto+Slab';
 @import 'vars';
 
 body {
@@ -12,14 +11,14 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
 }
 
 div, li, ul, section {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;        
+    margin: 0;
 }
 
 a {
@@ -57,12 +56,12 @@ header {
 
 .grid-item {
     flex: 0 0 auto;
-    padding: 20px 0;    
+    padding: 20px 0;
     width: 100%;
 
     @include media(">md") {
         padding-top: 30px;
-        padding-right: 30px;        
+        padding-right: 30px;
         width: 50%;
     }
 }
@@ -145,6 +144,6 @@ footer {
         &:hover {
             background-color: $color-link-hover;
             box-shadow: $shadow;
-        }   
+        }
     }
 }

@@ -3,7 +3,7 @@ title: Software Engineer
 company: The Ohio State University Libraries Web Team
 location: Columbus, OH
 tags: 
-- JS
+- JavaScript
 - Ruby
 - Rails
 date: "2009-09-01"

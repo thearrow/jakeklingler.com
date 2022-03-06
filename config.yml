@@ -1,8 +1,11 @@
 ---
 baseurl: "https://jakeklingler.com"
 title: "Jake Klingler - Software Engineer"
-canonifyurls: true
-disableKinds: 
+disableKinds:
   - taxonomy
   - taxonomyTerm
-...
+  - section
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

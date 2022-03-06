@@ -3,7 +3,7 @@ title: Software Engineer
 company: Epic
 location: Verona, WI
 tags:
-- JS
+- JavaScript
 - D3
 - C#
 - ".NET"

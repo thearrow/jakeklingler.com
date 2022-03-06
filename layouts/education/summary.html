@@ -1,5 +1,8 @@
 <div class="education-item grid-item">
-    {{ if .Params.link }}<a href="{{ .Params.link}}">{{ end }}
+    {{ if .Params.link }}
+    {{ $resource := resources.Get .Params.link }}
+    <a href="{{ $resource.RelPermalink }}" target="_blank" rel="noopener noreferrer">
+    {{ end }}
     <div>
         <h3>{{ .Title }}</h3>
         <p class="company">{{ .Params.company }}</p>
@@ -9,5 +12,5 @@
             {{ range .Params.tags }}<li>{{ . }}</li>{{ end }}
         </ul>
     </div>
-    {{ if .Params.link }}</a>{{ end }}    
+    {{ if .Params.link }}</a>{{ end }}
 </div>

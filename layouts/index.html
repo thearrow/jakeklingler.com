@@ -6,9 +6,16 @@
         <title>{{ .Title }}</title>
         <meta name="description" content="I'm Jake Klingler, a Software Engineer. I build beautiful, fast software.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="favicon-32x32.png" type="image/png">
-        <link rel="stylesheet" href="styles/index.css">
+
+        {{ $favicon := resources.Get "favicons/favicon.ico" }}
+        <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}" type="image/x-icon">
+        {{ $faviconPng := resources.Get "favicons/favicon-32x32.png" }}
+        <link rel="shortcut icon" href="{{ $faviconPng.RelPermalink }}" type="image/png">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400|Roboto+Slab:400" rel="stylesheet">
+        {{ $style := resources.Get "styles/index.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
         <script>
             window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
             ga('create', 'UA-43210809-2', {'siteSpeedSampleRate': 100});
@@ -22,16 +29,16 @@
         <section>
             <h2>Work</h2>
             <div class="work grid">
-                {{ range where .Data.Pages "Section" "work" }}
+                {{ range where .Site.RegularPages "Section" "work" }}
                     {{ .Render "summary" }}
                 {{ end }}
             </div>
         </section>
 
-        <section>        
+        <section>
             <h2>Projects</h2>
             <div class="projects grid">
-                {{ range where .Data.Pages "Section" "projects" }}
+                {{ range where .Site.RegularPages "Section" "projects" }}
                     {{ .Render "summary" }}
                 {{ end }}
             </div>
@@ -40,13 +47,12 @@
         <section>
             <h2>Education</h2>
             <div class="education grid">
-                {{ range where .Data.Pages "Section" "education" }}
+                {{ range where .Site.RegularPages "Section" "education" }}
                     {{ .Render "summary" }}
                 {{ end }}
             </div>
         </section>
 
         {{ partial "footer.html" }}
-        <script src="scripts/index.js"></script>
     </body>
 </html>

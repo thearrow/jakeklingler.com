@@ -3,9 +3,10 @@ title: Staff Software Engineer
 company: Honor
 location: Remote
 tags:
-- TS
+- TypeScript
 - React
 - Python
+- AWS
 date: 2021-06-01
 start: June 2021
 end: Present
