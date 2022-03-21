@@ -64,6 +64,12 @@ header {
         padding-right: 30px;
         width: 50%;
     }
+
+    &.has-link:hover {
+        h3 {
+          text-decoration: underline;
+        }
+    }
 }
 
 .tags {

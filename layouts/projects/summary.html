@@ -1,4 +1,4 @@
-<div class="projects-item grid-item">
+<div class="projects-item grid-item {{ if .Params.link }}has-link{{end}}">
     {{ if .Params.link }}<a href="{{ .Params.link}}" target="_blank" rel="noopener noreferrer">{{ end }}
     <div>
         <h3>{{ .Title }}</h3>

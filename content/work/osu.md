@@ -9,7 +9,7 @@ tags:
 date: "2009-09-01"
 start: "September 2009"
 end: "February 2013"
+link: https://library.osu.edu
 ---
-
 As a student employee, assisted with development of various projects including 
 an internal scheduling tool and a library map.

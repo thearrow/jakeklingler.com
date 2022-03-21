@@ -1,5 +1,5 @@
-<div class="work-item grid-item">
-    {{ if .Params.link }}<a href="{{ .Params.link}}">{{ end }}
+<div class="work-item grid-item {{ if .Params.link }}has-link{{end}}">
+    {{ if .Params.link }}<a href="{{ .Params.link}}" target="_blank" rel="noopener noreferrer">{{ end }}
     <div>
         <h3>{{ .Title }}</h3>
         <p class="company">{{ .Params.company }}</p>

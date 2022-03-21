@@ -1,7 +1,13 @@
-<div class="education-item grid-item">
+<div class="education-item grid-item {{ if .Params.link }}has-link{{end}}">
     {{ if .Params.link }}
+    {{ if hasPrefix .Params.link "http" }}
+    <!--- external link --->
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">
+    {{ else }}
+    <!--- local link (e.g. pdf file) --->
     {{ $resource := resources.Get .Params.link }}
     <a href="{{ $resource.RelPermalink }}" target="_blank" rel="noopener noreferrer">
+    {{ end }}
     {{ end }}
     <div>
         <h3>{{ .Title }}</h3>

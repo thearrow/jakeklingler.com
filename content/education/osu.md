@@ -6,5 +6,6 @@ tags:
 - Python
 - Java
 - C
-date: "2013-12-01"
+date: 2013-12-01
+link: https://cse.osu.edu
 ---

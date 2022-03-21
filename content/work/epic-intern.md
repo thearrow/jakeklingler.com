@@ -8,7 +8,7 @@ tags:
 date: "2013-05-01"
 start: "May 2013"
 end: "August 2013"
+link: https://www.epic.com
 ---
-
 Worked on a team with other interns to design and develop 
 a healthcare application for Windows Phone.
