@@ -4,8 +4,8 @@ company: The Ohio State University Libraries Web Team
 location: Columbus, OH
 tags: 
 - JavaScript
-- Ruby
-- Rails
+- Ruby on Rails
+- PostgreSQL
 date: "2009-09-01"
 start: "September 2009"
 end: "February 2013"

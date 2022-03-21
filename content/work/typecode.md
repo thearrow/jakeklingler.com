@@ -6,6 +6,7 @@ tags:
 - JavaScript
 - React
 - Python
+- PostgreSQL
 - AWS
 date: "2016-02-01"
 start: "February 2016"

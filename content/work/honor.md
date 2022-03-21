@@ -6,6 +6,7 @@ tags:
 - TypeScript
 - React
 - Python
+- MySQL
 - AWS
 date: 2021-06-01
 start: June 2021

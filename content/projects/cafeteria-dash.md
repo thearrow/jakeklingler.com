@@ -5,7 +5,7 @@ tags:
 - JavaScript
 - Python
 - Flask
-- Theano
+- SQLite
 date: 2015-06-01
 link: https://github.com/thearrow/cafeteria-dash
 

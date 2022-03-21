@@ -6,6 +6,7 @@ tags:
 - TypeScript
 - React
 - Python
+- PostgreSQL
 - AWS
 date: 2016-05-01
 start: May 2016
