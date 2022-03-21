@@ -12,4 +12,4 @@ start: "February 2016"
 end: "May 2016"
 ---
 
-Developed engaging interactive experiences for a variety of clients including GE and LAX.
+Full-stack web development building engaging interactive experiences for a variety of clients including GE Healthcare and LAX.

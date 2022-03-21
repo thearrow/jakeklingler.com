@@ -12,5 +12,5 @@ start: March 2014
 end: August 2015
 
 ---
-Maintained and added features to one of the largest Electronic Health Record systems in the world. 
+Full-stack web development for one of the most widely-used Electronic Medical Record systems. 
 Prototyped advanced clinical review tools.
