@@ -15,13 +15,6 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400|Roboto+Slab:400" rel="stylesheet">
         {{ $style := resources.Get "styles/index.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-
-        <script>
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-43210809-2', {'siteSpeedSampleRate': 100});
-            ga('send', 'pageview');
-        </script>
-        <script async src='https://www.google-analytics.com/analytics.js'></script>
     </head>
     <body>
         {{ partial "header.html" }}
