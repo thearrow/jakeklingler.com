@@ -3,7 +3,6 @@ baseurl: "https://jakeklingler.com"
 title: "Jake Klingler - Software Engineer"
 disableKinds:
   - taxonomy
-  - taxonomyTerm
   - section
 markup:
   goldmark:
